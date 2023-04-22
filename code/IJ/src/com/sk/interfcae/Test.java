@@ -16,7 +16,7 @@ abstract class Test2{
 }
 
 
-public class Test extends Test1,Test2{
+public class Test extends Test1{
 
 
     public static void main(String[] args) {
