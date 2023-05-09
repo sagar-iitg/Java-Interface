@@ -1,6 +1,6 @@
 package com.sk.interfcae.diamond;
 
-interface Test1{
+abstract interface Test1{
 
     public abstract void m1();
 

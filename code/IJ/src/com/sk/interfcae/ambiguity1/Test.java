@@ -1,7 +1,6 @@
 package com.sk.interfcae.ambiguity1;
 
 
-
 interface X{
 
     void m1();
@@ -18,9 +17,19 @@ public class Test implements  X{
 
 
     public void hello(){
-        new Test().m2();
+
         X.super.m2();
 
+        new Test().m2();
+
+
+
+
+    }
+
+    public  void m2(){
+
+        System.out.println(" implementation of m2 in Test class");
 
     }
     @Override
@@ -29,8 +38,13 @@ public class Test implements  X{
     }
 
     public static void main(String[] args) {
+
         new Test().hello();
+
     }
+
+
+
 
 
 }

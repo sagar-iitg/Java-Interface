@@ -39,6 +39,7 @@ class Test1 implements X{
 class Demo implements X{
 
 
+    //if we want , we can override default methods
     @Override
     public void m1() {
         System.out.println("inside Demo class m1 method");
