@@ -22,8 +22,14 @@ public class Test implements  X{
         Test t=new Test();
         t.m2();
         new Test().m2();
-        //X.super.m2(); //this won't work
+       // X.super.m2(); //this won't work due to static method--- hello()
 
+
+
+    }
+    @Override public  void m2(){
+
+        System.out.println("inside Test Class implementation of m2");
 
     }
     @Override
@@ -33,8 +39,14 @@ public class Test implements  X{
 
     public static void main(String[] args) {
 
-        new Test().hello();
+        //new Test().hello();
         hello();
+        new Test().hi();
+
+    }
+    public void hi(){
+            X.super.m2();
+
     }
 
 
