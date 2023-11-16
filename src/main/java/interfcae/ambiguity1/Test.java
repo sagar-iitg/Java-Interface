@@ -21,12 +21,15 @@ public class Test implements  X{
         X.super.m2();
 
         new Test().m2();
-
+        m2();
+        m1();
 
 
 
     }
 
+
+    @Override
     public  void m2(){
 
         System.out.println(" implementation of m2 in Test class");
