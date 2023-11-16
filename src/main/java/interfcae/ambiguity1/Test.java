@@ -44,6 +44,7 @@ public class Test implements  X{
 
         new Test().hello();
 
+
     }
 
 
