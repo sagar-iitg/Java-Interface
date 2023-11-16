@@ -1,4 +1,4 @@
-package com.sk.interfcae.diamond;
+package interfcae.diamond;
 
 abstract interface Test1{
 

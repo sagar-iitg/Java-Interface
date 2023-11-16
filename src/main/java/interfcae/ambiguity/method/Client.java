@@ -1,7 +1,5 @@
-package com.sk.interfcae.ambiguity.method;
+package interfcae.ambiguity.method;
 
-
-import com.sk.interfcae.diamond.Test;
 
 interface A{
 

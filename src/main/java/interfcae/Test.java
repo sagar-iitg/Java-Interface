@@ -1,4 +1,4 @@
-package com.sk.interfcae;
+package interfcae;
 
 
 abstract class Test1{

@@ -1,4 +1,4 @@
-package com.sk.interfcae.ambiguity.defaultmethod;
+package interfcae.ambiguity.defaultmethod;
 
 interface X{
 

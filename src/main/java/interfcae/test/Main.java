@@ -1,4 +1,4 @@
-package com.sk.interfcae.test;
+package interfcae.test;
 
 
 

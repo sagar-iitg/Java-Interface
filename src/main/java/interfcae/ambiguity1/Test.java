@@ -1,4 +1,4 @@
-package com.sk.interfcae.ambiguity1;
+package interfcae.ambiguity1;
 
 
 interface X{

@@ -1,4 +1,4 @@
-package com.sk.interfcae.ambiguity3;
+package interfcae.ambiguity3;
 
 
 

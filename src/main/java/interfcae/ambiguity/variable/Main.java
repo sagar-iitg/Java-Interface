@@ -1,4 +1,4 @@
-package com.sk.interfcae.ambiguity.variable;
+package interfcae.ambiguity.variable;
 
 interface  T1{
 
