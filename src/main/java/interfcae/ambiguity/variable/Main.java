@@ -2,7 +2,7 @@ package interfcae.ambiguity.variable;
 
 interface  T1{
 
-    public static  int value=10;
+    public static final int value=10;
 
 }
 
