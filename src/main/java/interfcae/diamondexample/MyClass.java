@@ -23,10 +23,10 @@ public class MyClass extends Check implements  Interface1,Interface2{
     }
 
     public static void main(String[] args) {
-        MyClass x=new MyClass();
-        x.method1();
-        Check c=new Check();
-        c.method1();
+        MyClass obj=new MyClass();
+        obj.method1();
+        Check obj1=new Check();
+        obj1.method1();
 
     }
 }
