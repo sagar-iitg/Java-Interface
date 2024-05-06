@@ -35,11 +35,13 @@ public class Test implements  X,Y{
     public static void main(String[] args) {
         Test t=new Test();
         t.m2();
-        //X.super.m2();
+     //   X.super.m2(); compile time error
+
     }
     @Override
     public void m2() {
-        //X.super.m2();
+        X.super.m2();
+        Y.super.m2();
         System.out.println("In test class");
     }
 }
