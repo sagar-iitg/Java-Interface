@@ -13,6 +13,7 @@ interface X{
 
 
 }
+
 public class Test implements  X{
 
 
