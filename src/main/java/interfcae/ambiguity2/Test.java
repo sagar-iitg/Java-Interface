@@ -47,6 +47,7 @@ public class Test implements  X{
         new Test().hi();
 
 
+
     }
 
     public void hi(){
