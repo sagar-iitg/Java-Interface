@@ -27,6 +27,8 @@ public class Test implements  X{
 
 
     }
+
+    //default method
     @Override public  void m2(){
 
         System.out.println("inside Test Class implementation of m2");
@@ -40,10 +42,13 @@ public class Test implements  X{
     public static void main(String[] args) {
 
         //new Test().hello();
+        //m1();
         hello();
         new Test().hi();
 
+
     }
+
     public void hi(){
             X.super.m2();
 
@@ -51,3 +56,4 @@ public class Test implements  X{
 
 
 }
+
