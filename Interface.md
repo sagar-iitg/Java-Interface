@@ -23,10 +23,10 @@
 4.  By default interface variable is public and static
 5.  By default all the interface method  are abstract and public
 6.  default method in interface is not abstract we have to give body of that method( java 8 features)
-7.  
+7. 
 
 
-
+In Java, when a class extends another class and implements an interface, and both the class and the interface contain a method with the same signature, the method from the class takes precedence over the method from the interface. This is due to how Java resolves method calls based on the class hierarchy.
 
 
 
